@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.navbar{padding: 15px;}
+.navbar-brand{
+    font-size:28px;
+    font-weight: 500; 
+    letter-spacing: 3px;                  
+}
+
+#first-section{
+    width: 100%;
+    height: 88vh;
+    background-image: url(images/BANNER.jpg);
+}
+#first-section h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 3px -1px 2px rgb(0 0 0);
+    font-size: 48px;
+    font-family: 600;
+}
+#first-section p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+}
+.btn-get-started{
+    border: 2px solid white;
+    padding: 8px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 30px;
+
+}
+.btn-get-starteds{
+    background-color: rgb(14, 122, 129);
+    padding: 8px 28px;
+    color: white;
+    
+}
+.btn-get-started:hover{
+    background-color: rgb(14, 122, 129);
+    cursor: pointer;
+    border: 2px solid rgb(14, 122, 129);
+}
+
+#aboutUs{
+    padding:50px 0px;
+
+}
+#about-head h2{
+    font-weight: 300;
+}
+.about-content h3{
+    font-weight: 300;
+}
+
+.about-icon{
+    font-size: 28px;
+    margin-top: 2px;
+    color: rgb(14, 122, 129);
+}
+.aboutUs{
+    padding: 10px 0px;
+}
+#about-head{
+    margin-top: 15px;
+}
+.about-service{
+    background-color: rgb(239, 249, 250);
+    padding: 40px 0px;
+}
+
+.about-block{
+    padding: 20px;
+}
+.about-block h1{
+    font-size: 24px;
+    color: rgb(14, 122, 129);
+}
+.about-block h2{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+#service-freature{
+    padding: 40px 0px;
+}
+#service-freature h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.freature-content{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
+.freature-content:hover{
+    color: rgb(14, 122, 129);
+    cursor: pointer;
+}
+.active-freature{
+    box-shadow:1px 3px 6px 1px #d8d8d8;
+}
+
+
+/*Service*/
+#service{
+    background-color: rgb(239, 249, 250);
+    padding: 50px 0px;
+}
+.service-head{
+    padding: 20px;
+}
+.service-head h2{
+    font-weight: 400;
+    font-size: 34px;
+    color: rgb(63, 63, 63);
+    margin-bottom: 30px;
+}
+.service-head p{
+    font-size: 16px;
+
+}
+.service-div{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.service-div:hover{
+    box-shadow: 2px 2px 7px 2px grey;
+    cursor: pointer;
+}
+.service-div i{
+    font-size: 30px;
+    color: teal;
+    padding: 10px 0px;
+}
+.service-div h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+
+
+/*Member */
+.team{
+    padding: 50px 0px;
+}
+.team-head h3{
+    color: rgb(14, 122, 129);
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.member{
+    border: 1px solid black;
+    margin: 10px 0px;
+    position: relative;
+}
+.member::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: rgba(0, 0, 0, 0.473);
+    transition: 0.5s;
+}
+.member:hover::before{
+    height: 100%;
+    transition: 0.5s;
+}
+.member:hover{
+    cursor: pointer;
+}
+.member-info{
+}
+.social-link {
+    background-color: rgba(0, 0, 0, 0.178);
+    padding: 0px;
+    width: 50px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.5s;
+}
+.member:hover .social-link{
+    transform: scaleX(1);
+}
+.social-link a {
+    display: block;
+    margin-left: 5px;
+}
+.social-link a i{
+    font-size: 22px;
+    color: white;
+    padding:10px;
+    transition: all 0.5s;
+}
+.social-link a i:hover{
+    color: rgb(36, 155, 163);
+}
+.member-id{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px 0px;
+    width: 100%;
+    color: white;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 0.5s;
+}
+.member:hover .member-id{
+    bottom: 0;
+    transform: scaleY(1);
+}
+.member-id h3{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Philosopher', sans-serif;
+
+}
+.member-id p{
+    font-family: 'Josefin Slab', serif;
+    line-height: 8px;
+}
+
